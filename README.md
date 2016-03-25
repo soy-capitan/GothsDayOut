@@ -20,7 +20,7 @@ _Still working on getting the data to feedback_
 
 ## Support and contact details
 
-_This is for entertainment purposes only, Please don't contact me about this unless you are the code reviewer, and definitly if you don't have a sense of humor_
+_This is for entertainment purposes only, Please don't contact me about this unless you are the code reviewer, and definitly not if you don't have a sense of humor_
 
 
 ### License
