@@ -16,8 +16,8 @@ _Vacation Picker for Goths_
 
 ## Known Bugs
 
-_Still working on getting the data to feedback_
-_This site is optimized for firefox so far. I haven't reached the point where we have talked about cross platform coding, so this is unlikely to be as reactive as i'd like or pass a qa muster. Reuse this code at your own risk_
+_Still working on getting the data to feedback. _
+_This site is optimized for firefox so far. I haven't reached the point where we have talked about cross platform coding, so this is unlikely to be as reactive as i'd like or pass a qa muster. Reuse this code at your own risk. _
 
 ## Support and contact details
 
