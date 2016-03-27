@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- needed for the scrolling functions -->
 
     <title>A Goths Day Out- Vacation Suggestions for the Macabre</title>
 
@@ -39,7 +40,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section lots of research went into this site, ok?-->
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
@@ -82,7 +83,7 @@
                     <form id="personalinfo">
  
                     <p><label for="vacapref">Do you prefer Lots of Rain, Indoor Activities or Stormy Seas?</label>
-                    <select id="vacapref">
+                    <select select name="weather" id='slt_weather' size="4" multiple='multiple'>>
                         <option value="rain">Rainy all the way!</option>
                         <option value="indoors">What is this Outside you talk of?</option>
                         <option value="sea">Stormy Seas, Matey</option>
@@ -178,14 +179,28 @@
     </section>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script
+              src="https://code.jquery.com/jquery-2.2.2.js"
+              integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="
+              crossorigin="anonymous">
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
 
     <!-- Scrolling Nav JavaScript Not my code! just thought it was cool and it's freeware licencing -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script src="js/form.js"></script>
 
 </body>
 
