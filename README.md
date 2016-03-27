@@ -17,6 +17,7 @@ _Vacation Picker for Goths_
 ## Known Bugs
 
 _Still working on getting the data to feedback_
+_This site is optimized for firefox so far. I haven't reached the point where we have talked about cross platform coding, so this is unlikely to be as reactive as i'd like or pass a qa muster. Reuse this code at your own risk_
 
 ## Support and contact details
 
@@ -25,6 +26,7 @@ _This is for entertainment purposes only, Please don't contact me about this unl
 
 ### License
 
-*This uses the Unlicense, so I could care less if you use it, though there are some bits of freeware in there that require their own stipulations.*
+*My code here uses the Unlicense, so I could care less if you use it, though there are some bits of freeware in there that require their own stipulations.*
 
-Copyright (c) 2016 **_C.G. Acharjya_**
+Mostly Copyright (c) 2016 **_C.G. Acharjya_** 
+With liberal use of resources from mozilla, bootstrap, javascript, adobe, and on and on..
