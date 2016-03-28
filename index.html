@@ -78,45 +78,53 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Where Do the Goths Go?</h1>
-                    
+                    <form>
+                        <div class="form-group">
+                            <p><label for="vacapref">Do you prefer Lots of Rain, Indoor Activities or Stormy Seas?</label>
+                                <select select name="weather" id='slt_weather'>>
+                                    <option value="rain">Rainy all the way!</option>
+                                    <option value="indoors">What is this Outside you talk of?</option>
+                                    <option value="sea">Stormy Seas, Matey</option>
+                                </select></p>
+                        </div>
+                        <div class="form-group">
+                            <p><label for="gender">Gender</label>
+                                <select id="gender">
+                                    <option value="female">Female</option>
+                                    <option value="male">Male</option>
+                                </select></p>
+                        </div>
+                        <div class="form-group">
+                            <p><label for="brains">Do you prefer Dead Things or Imaginary Creatures?</label>
+                                <select id="humor">
+                                    <option value="dead">The Dead Speak to my soul.</option>
+                                    <option value="fantasy">Give me fantastical!</option>
+                                </select></p>
+                        </div>
+                        <div class="form-group">
+                            <p><label for="colorpref">Do you wear only black, or Have you discovered other colors?</label>
+                                <select id="humor">
+                                    <option value="black">I dress like my soul, all in Black!</option>
+                                    <option value="steampunk">I have discovered this thing called "Brown."</option>
+                                    <option value="cybergoth">Rainbows! Glitter! Neon!</option>
+                                </select></p>
+                        </div>
+                        <div class="form-group">
+                            <p><label for="music">What Kind of Music Do you listen to?</label>
+                                <select id="humor">
+                                    <option value="rivethead">Stompy! Where are my contacts!</option>
+                                    <option value="depressogoth">Shoegaze. My soul is a haunted willow</option>
+                                    <option value="Etherial">The Oldies: The Cure, Depeche mode, Current 93. Now give me my capachino!</option>
+                                </select></p>
+                        </div>
 
-                    <form id="personalinfo">
- 
-                    <p><label for="vacapref">Do you prefer Lots of Rain, Indoor Activities or Stormy Seas?</label>
-                    <select select name="weather" id='slt_weather' size="4" multiple='multiple'>>
-                        <option value="rain">Rainy all the way!</option>
-                        <option value="indoors">What is this Outside you talk of?</option>
-                        <option value="sea">Stormy Seas, Matey</option>
-                    </select></p>
-                    <p><label for="gender">Gender</label>
-                    <select id="gender">
-                        <option value="female">Female</option>
-                        <option value="male">Male</option>
-                        </select></p>
-                    <p><label for="brains">Do you prefer Dead Things or Imaginary Creatures?</label>
-                    <select id="humor">
-                        <option value="dead">The Dead Speak to my soul.</option>
-                        <option value="fantasy">Give me fantastical!</option>
-                    </select></p>
-                    <p><label for="colorpref">Do you wear only black, or Have you discovered other colors?</label>
-                    <select id="humor">
-                        <option value="black">I dress like my soul, all in Black!</option>
-                        <option value="steampunk">I have discovered this thing called "Brown."</option>
-                        <option value="cybergoth">Rainbows! Glitter! Neon!</option>
-                    </select></p>
-                    <p><label for="music">What Kind of Music Do you listen to?</label>
-                    <select id="humor">
-                        <option value="rivethead">Stompy! Where are my contacts!</option>
-                        <option value="depressogoth">Shoegaze. My soul is a haunted willow</option>
-                        <option value="Etherial">The Oldies: The Cure, Depeche mode, Current 93. Now give me my cappachino!</option>
-                    </select></p>
+                        <button type="submit" id="submit" class="btn"><em>Tell me Where before I cut you!</em></button>
+                    </form> 
+                </div> 
+            </div>
+        </div>
 
-
-        <button type="submit" id="submit" class="btn"><em>Tell me Where before I cut you!</em></button>
-      </form>
-
-
-      <div id="vacapref">
+        <div id="vacapref">
         <div id="portland">
           <p> <ins>Portland has everything you need!</ins> </p>
         </div>
@@ -126,32 +134,7 @@
         <div id="catacombs">
           <p> <ins> You should go to the Catacombs Of Paris. You poor soul, you are probably already dead. </ins> </p>
         </div>
-      </div>
-
-
-        <!-- <p>Now you can see what I was trying to do, I'm going back to sqare one here but even the orriginal suggestion doesn't work. I'll try this again on the weekend, but I can't even see thanks to overstimulation of my eyes</p> -->
-<!-- 
-
-<form id="vacation">
-        <label for="age">Age</label>
-        <input id="age" type="text">
-        <label for="gender">Gender</label>
-        <select id="gender">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-        </select>
-
-        <button type="submit" class="btn">Calculate my quote</button>
-      </form>
-
-      <div id="quote">
-        <p>You will have to pay $<span id="rate"></span> per month to get car vacation. You should probably just bike or take the bus.</p> -->
-    </div>
-  </body>
-</html>
-                </div>
-            </div>
-        </div>
+        
     </section>
 
     <!-- I reused code I've learned from previous projects this week here, no point in reinventing the wheel -->
