@@ -16,8 +16,7 @@ _Vacation Picker for Goths_
 
 ## Known Bugs
 
-_Still working on getting the data to feedback. _
-_This site is optimized for firefox so far. I haven't reached the point where we have talked about cross platform coding, so this is unlikely to be as reactive as i'd like or pass a qa muster. Reuse this code at your own risk. _
+_Still working on getting the data to feedback. This site is optimized for firefox so far. I haven't reached the point where we have talked about cross platform coding, so this is unlikely to be as reactive as i'd like or pass a qa muster. Reuse this code at your own risk. Also, I've used multiple form types both of my own making and of others and it breaks as soon as I combine bootstrap scrolling function and spy and the form. Much swearing durring the weekend has been had._
 
 ## Support and contact details
 
