@@ -5,18 +5,20 @@ $(document).ready(main);
 {
   $("#submit").click(function(event){
 var slt_weather_val=$("#slt_weather").val();
+
+if (slt_weather_val === 'rain') {
+ alert("Portland has everything you need!");
+} else if (slt_weather_val === 'sea') {
+  alert("Storm Cove Will sooth your melancholy soul.");
+} else if (slt_weather_val === 'indoors') {
+  alert("You should go to the Catacombs Of Paris.");
+}
   });
 }
 
 // I know I'm getting data back here but the if else is broken. if I take out the ; it complains that it wants one, if I put it in, it complains about the else if.
 
-if ($("#submit").val() === '#rain'); {
- alert("Portland has everything you need!");
-} else if ($('#slt_weather_val').val() === '#sea'); {
-  alert("Storm Cove Will sooth your melancholy soul.");
-} else ($('#slt_weather_val').val() === '#catacombs');{
-  alert("You should go to the Catacombs Of Paris.");
-}
+
 
 // Your example:
 // if (age > 21) {
