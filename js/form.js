@@ -6,6 +6,8 @@ $(document).ready(main);
  $("#submit").click(function(event){
   var slt_weather_val=$("#slt_weather").val();
   var humor_val=$("#humor").val();
+  
+  event.preventDefault()
 
 
   //added a couple options to show I understand the concept of each form of logic. This could be expanded using this same logic/form though at that point it's just typing. I could refactor this with new stuff, but that isn't in the scope of this assignment.
