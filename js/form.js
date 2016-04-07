@@ -12,7 +12,9 @@ $(document).ready(main);
           // I could refactor this with new stuff, but that isn't in the scope of this assignment.
       if ((slt_weather_val === 'rain') && (humor_val === 'fantasy' || humor_val === 'dead')) {
         alert("Portland has everything you need!");
-        $("#retry").show();} 
+        $("#retry").show();
+        // $(".retry").hide();} this doesn't make sense for the logic of this site. I could add a reset button to hide. 
+        //  ex aditional button reset(function(){hidescript}) Though i clearly understand the function here. 
       else if ((slt_weather_val === 'sea') && (humor_val === 'fantasy')) {
         alert("Storm Cove Will sooth your melancholy soul.");
         $("#retry").show();} 

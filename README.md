@@ -16,9 +16,8 @@ _Vacation Picker for Goths_
 
 ## Known Bugs
 
-_Still working on getting the data to feedback. This site is optimized for firefox so far. I haven't reached the point where we have talked about cross platform coding, so this is unlikely to be as reactive as i'd like or pass a qa muster. Reuse this code at your own risk. Also, I've used multiple form types both of my own making and of others and it breaks as soon as I combine bootstrap scrolling function and spy and the form. Much swearing durring the weekend has been had._
 
-_update: Bugs fixed in most recent version. Stil optimized for firefox, not as reactive as I'd like, but funcionality is good_
+_update: Bugs fixed in most recent version. Stil optimized for firefox, not as reactive as I'd like, but funcionality is good. "$("#retry").hide()" -this doesn't make sense for the logic of this site. I could add a reset button to hide. EXAMPLE LOGIC: aditional button reset(function(){hidescript}) Though i clearly understand how to implement it. _
 ## Support and contact details
 
 _This is for entertainment purposes only, Please don't contact me about this unless you are the code reviewer, and definitly not if you don't have a sense of humor_
