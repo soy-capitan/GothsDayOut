@@ -64,7 +64,11 @@ h1 {
 }
 
 
-#portland, #storm, #catacombs {
+#retry {
+  display: none;
+}
+
+#clickabove {
   display: none;
 }
 
